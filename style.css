@@ -4,7 +4,7 @@
 }
 
 #game{
-    width: 400px;
+    width: 500px;
     height: 750px;
     border: 1px solid black;
     margin: auto;
@@ -12,27 +12,27 @@
 }
 
 #block{
-    width: 50px;
+    width: 30px;
     height: 750px;
     background-color: rgb(29, 211, 53);
     position: relative;
     left: 400px;
-    animation: block 2s infinite linear;
+    animation: block 5s infinite linear;
 }
 
 @keyframes block{
     0%{left: 400px}
-    100%{left: -50px}
+    100%{left: -30px}
 }
 
 #hole{
-    width: 50px;
-    height: 150px;
+    width: 30px;
+    height: 200px;
     background-color: white;
     position: relative;
     left: 400px;
     top: -750px;
-    animation: block 2s infinite linear;
+    animation: block 5s infinite linear;
 }
 
 #character{
